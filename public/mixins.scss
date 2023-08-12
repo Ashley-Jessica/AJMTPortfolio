@@ -1,0 +1,36 @@
+@mixin large-screen {
+    @media screen and (min-width: 1600px) and (max-width: 1920px) {
+        @content;
+    }
+}
+
+@mixin medium-screen {
+    @media screen and (max-width: 1599px) and (min-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin phablet {
+    @media screen and (min-width: 481px) and (max-width: 767px) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media screen and (min-width: 320px) and (max-width: 480px) {
+        @content;
+    }
+}
+
+@mixin textEllipsis($width) {
+    width: $width;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
