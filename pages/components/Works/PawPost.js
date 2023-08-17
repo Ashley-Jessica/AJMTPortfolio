@@ -12,7 +12,7 @@ const PawPost = () => {
             This website will not only help shelters and pounds, but also pet owners and people who want to become pet owners. 
             We aim to create a social media-like community for pet owners from where the shelter is from.
         </p>
-        <p>The langauges used to develop this capstone are: HTML, PHP, JavaScript, PHPMyAdmin, MySQL and CSS</p>
+        <p className="pawpost_description">The langauges used to develop this capstone are: HTML, PHP, JavaScript, PHPMyAdmin, MySQL and CSS</p>
        <Pawpostimg></Pawpostimg>
     </div>
   )

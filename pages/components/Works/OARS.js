@@ -12,7 +12,7 @@ const OARS = () => {
         The website is aimed to provide customers a list of services being offered and itineraries available. 
         This also aims to create online registrations, services and the amenities the hotel provides. 
         </p>
-        <p>
+        <p className="oars_description">
             This website was created during my third year in college while studying under Bachelor of Science in Information Technology
             in partial completion for the subject Web Development. The langauges used to develop this capstone are: HTML, PHP, JavaScript, PHPMyAdmin, MySQL and CSS
         </p>
